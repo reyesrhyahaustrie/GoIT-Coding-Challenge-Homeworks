@@ -36,6 +36,89 @@ li {
 
 .sidebar {
     width: 370px;
+    background: #1E2939;
+    padding-top: 40px;
+    color: #FFF;
+}
+
+.sidebar > .content {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.contacts p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 8px 0px 0px 0px;
+}
+
+.contacts a {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.contacts h3 {
+    margin: 0;
+}
+
+.contacts .phone-number {
+    text-decoration: none;
+}
+
+.sidebar > .tech-skills {
+    margin: 47px 0px 0px 0px;
+}
+
+.tech-skills ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.tech-skills ul li::before {
+    content: "\2022";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FB6D3A;
+    display: inline-block;
+    width: 10px;
+}
+
+.tech-skills li {
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sidebar>.soft-skills {
+    margin: 44px 0px 0px 0px;
+}
+
+.soft-skills ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.soft-skills ul li::before {
+    content: "\2022";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FB6D3A;
+    display: inline-block;
+    width: 10px;
+}
+
+.soft-skills li {
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .main-content {
