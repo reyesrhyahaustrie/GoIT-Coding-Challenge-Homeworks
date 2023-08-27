@@ -6,12 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <!-- Left Section - sidebar -->
-    <section>
+    <section class="sidebar">
         <img src="./images/profile-picture.png" alt="profile picture" 
         width="300px"/>
 
@@ -51,7 +55,7 @@
 
 
     <!-- Right Section -->
-    <section>
+    <section class="main-content">
     <!-- Summary section -->
     <div>
         <h4>Front-End Developer</h4>
@@ -90,12 +94,12 @@
     </div>
 
     <!-- Work Experience section -->
-    <div>
+    <div class="work-experience">
         <h3>Work Experience</h3>
 
         <!-- 1st work experience -->
         <div>
-            <h4>Front-End Developer Freelance</h4>
+            <h4>Front-End Developer <span class="subtitle">Freelance</span></h4>
             <p>September 2019 - up to now | Country</p>
             <ul>
                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -107,7 +111,7 @@
 
         <!-- 2nd work experience -->
         <div>
-            <h4>Manager Glory New</h4>
+            <h4>Manager <span class="subtitle">Glory New</span></h4>
             <p>March 2015 - October 2018 | Country</p>
             <ul>
                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</li>
@@ -118,7 +122,7 @@
 
         <!-- 3rd work experience -->
         <div>
-            <h4>Manager Glory New</h4>
+            <h4>Manager <span class="subtitle">Glory LLC</span></h4>
             <p>June 2014 - February 2015 | Country</p>
             <ul>
                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
